@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Ringgold™ resolver</title>
+	</head>
+	<body>
+		<h1>Ringgold™ resolver</h1>
+		<p>This service can be used to resolve basic
+		metadata about institutions using their Ringgold™
+		identifier.</p>
+		
+		<p>Metadata is returned as a JSON payload, in the format
+		used by ORCID (where this data comes from).</p>
+		
+		<p>
+			<form method="GET" action="/get" style="padding: 20px; border: 1px solid black">
+				<label for"ringgold_id">Ringgold id:</label>
+				<input type="text" name="ringgold_id" value="64901" />
+				<input type="submit" value="Submit"/>
+			</form>
+		</p>
+
+		<p>
+		The full database can be downloaded 
+		<a href="https://doi.org/10.5281/zenodo.268334">on Zenodo</a>.</p>
+
+		<p><a href="http://ringgold.com/">Ringgold, Inc.</a> also provide an <a href="http://ido.ringgold.com/">official lookup interface</a>
+		(registration required).</p>
+	</body>
+</html>
+
